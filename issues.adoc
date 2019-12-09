@@ -1,0 +1,11 @@
+Current Issues
+--------------
+- [done] Finish core-person in JSON Schema# +
+the rest
+of the detail
+
+- [done] Validate example json data against core-person +
+this is how we'll know if we're on track
+
+- [done] Cross-check against OAI 3 syntax +
+make sure schema abides by OAI 3 rules for inclusion in API specs 

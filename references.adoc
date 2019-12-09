@@ -1,0 +1,17 @@
+References
+====
+This Repository
+=====
+*  link:README.adoc[] 
+*  link:attributes/attributeClasses.adoc[Attribute Classes that can be used to categorize individual attributes] 
+
+External Links
+=====
+* https://spacetelescope.github.io/understanding-json-schema/UnderstandingJSONSchema.pdf[Understanding JSON Schema]; Good intro but somewhat dated: Refers to Draft 4, current is Draft 7
+* Phil Sturgeon’s https://philsturgeon.uk/api/2018/04/13/openapi-and-json-schema-divergence-solved/[two-part article] on 
+the convergence between http://json-schema.org/[JSON Schema] and https://www.openapis.org/[OAI 3]
+* A little https://github.com/wework/json-schema-to-openapi-schema[NodeJS package] to convert JSON Schema to OpenAPI Schema Objects
+* https://blog.readme.io/an-example-filled-guide-to-swagger-3-2/[A Visual Guide to What's New in OAI 3.0]; A good starting point
+* https://editor.swagger.io/[Swagger Editor]
+* https://app.swaggerhub.com/home[SWAGGERhub]: A good place to work collaboratively on schema; take the rendered server-side javacript and remove the Swagger branding
+* Community-maintained https://github.com/OpenAPITools/openapi-generator/releases/tag/v3.0.0[Codegen packages] for OAI 3 API specifications; On Twitter as https://twitter.com/oas_generator[]

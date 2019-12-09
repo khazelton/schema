@@ -1,0 +1,34 @@
+= Internet2 Trust and Identity Schema
+
+:Email:     hazelton@internet2.edu
+:Date:      2018-07-18
+:Revision:  01
+:SelfLink:  https://github.internet2.edu/TIER/schema
+:Editor:    Keith Hazelton
+:Email:     hazelton@internet2.edu
+
+[NOTE]
+====
+Revision: {Revision} +
+{Date} +
+Self-link: {SelfLink} +
+Editor: {Editor}, {Email}
+====
+
+== Minimal Registry Person
+
+==== link:issues.adoc[Current Issues]
+
+==== link:schema/core-person.json[Draft Core Person Schema (minimal registry person)]
+ * link:schema/tools.adoc[Schema Tools]
+ * Valid example person representations
+ ** link:data/person1.json[]
+ ** link:data/person2.json[]
+
+==== link:references.adoc[References]
+
+==== Starting Points:
+
+ * link:schema/card.schema.json[]
+ * link:schema/card.schema.yml[]
+ * link:schema/gaborMinimalPersonSchema.yml[]

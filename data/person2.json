@@ -1,0 +1,21 @@
+{
+"name": {
+ "lastName": "Jansen",
+ "firstName": "Jo"
+ },
+"birthDate": "1955-12-10",
+"username": "jjansen",
+"institutionalId": "34-546877",
+"identifier": [
+ {"id": "357A225",
+  "source": "SIS"
+ },
+ { 
+  "id": "jansen121",
+  "source": "HR"
+ } ],             
+"email": {
+ "emailAddress": "jjansen@goo.edu",
+ "emailType": "primary"
+ }
+}

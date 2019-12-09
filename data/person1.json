@@ -1,0 +1,13 @@
+{
+"name": {
+ "lastName": "Johnson",
+ "firstName": "Joe"
+ },
+"birthDate": "1965-08-10",
+"username": "jjohnson",
+"institutionalId": "34-765554",
+"email": {
+ "emailAddress": "jjohnson@goo.edu",
+ "emailType": "primary"
+ }
+}

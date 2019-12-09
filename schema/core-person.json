@@ -1,0 +1,83 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Core Person Schema from Internet2 T&I",
+    "description": "Core Person Schema from Internet2 T&I",
+    "type": "object",
+    "required": [
+        "name",
+        "email"
+    ],
+    "properties": {
+        "name": {"$ref": "#/components/schemas/name"},
+        "logon-id": {"$ref": "#/components/schemas/logon-id"},
+        "subject-id": {"$ref": "#/components/schemas/subject-id"},
+        "priorSubject-id": {"$ref": "#/components/schemas/priorSubject-id"},
+        "sourcedId": {"$ref": "#/components/schemas/sourcedId"},
+        "birthDate": {"$ref": "#/components/schemas/birthDate"},
+        "email": {"$ref": "#/components/schemas/email"},
+        "phone": {"$ref": "#/components/schemas/phone"},
+        "personalPronoun": {"$ref": "#/components/schemas/personalPronoun"}
+    },
+    "components": {
+        "schemas": {
+            "name": {
+                "type": "object",
+                "properties": {
+                    "familyName": {"type": "string"},
+                    "givenName": {"type": "string"},
+                    "middleName": {"type": "string"},
+                    "nameType": {"type": "string"}
+                }
+            },
+            "logon-id": {
+                "type": "string",
+                "description": "same as identifier/network in Core Attribute Specification. Mapped to target system ID, (__NAME__, in ConnID)
+            },
+            "subject-id": {
+                "type": "string",
+                "description": "same as identifier/enterprise in Core Attribute Specification; created on inbound mapping(?)"
+            },
+            "priorSubject-id": {
+                "type": "array",
+                "items": {
+                    "id": {"type": "string"}
+                }
+            },
+            "sourcedId": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "description": "required(?) Same as identifier/enterprise in Core Attribute Specification. Where identifier crosswalk is mapped in midPoint",
+                    
+                    "properties": {
+                        "source": {"type": "string"},
+                        "id": {"type": "string"}
+                    }
+
+                }
+            },
+            "birthDate": {"type": "string"},
+            "email": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "emailAddress": {"type": "string"}
+                    }
+                }
+            },
+            "phone": {
+                "type": "array",
+                "description": "same as telephoneNumber in Core Attribute Specification",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "phoneNumber": {"type": "string"},
+                        "phoneType": {"type": "string"}
+                    }
+                }
+            },
+            "personalPronoun": {"type": "string"}
+        }
+    }
+}

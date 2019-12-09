@@ -1,0 +1,5 @@
+Schema Tools
+============
+
+- https://www.npmjs.com/package/ajv-cli[ajv-cli]: npm-installable CLI tool to validate JSON Schema specifications
+- https://www.jsonschemavalidator.net[Online JSON Schema validator]

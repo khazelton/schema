@@ -20,6 +20,7 @@ Editor: {Editor}, {Email}
 ==== link:issues.adoc[Current Issues]
 
 ==== link:schema/core-person.json[Draft Core Person Schema (minimal registry person)]
+==== link:https://spaces.at.internet2.edu/display/TIERENTREG/TIER+SoR-Registry+Core+Schema[Core Person Schema V0.9]
  * link:schema/tools.adoc[Schema Tools]
  * Valid example person representations
  ** link:data/person1.json[]

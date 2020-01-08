@@ -31,7 +31,7 @@
             },
             "logon-id": {
                 "type": "string",
-                "description": "same as identifier/network in Core Attribute Specification. Mapped to target system ID, (__NAME__, in ConnID)
+                "description": "same as identifier/network in Core Attribute Specification. Mapped to target system ID, (__NAME__, in ConnID)"
             },
             "subject-id": {
                 "type": "string",
